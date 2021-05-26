@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "hoanganh-extension",
+  "version": "0.0.1",
+  "description": "This is my first extension",
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+
+  "permissions": ["webNavigation", "*://*/*", "contextMenus", "storage"]
+}
